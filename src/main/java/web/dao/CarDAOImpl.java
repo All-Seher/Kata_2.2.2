@@ -12,15 +12,11 @@ public class CarDAOImpl implements CarDAO {
     private List<Car> cars = new ArrayList<>();
 
     {
-        cars.add(new Car(1L, "Lada", 2000, 60));
-        cars.add(new Car(2L, "BMW", 2005, 180));
-        cars.add(new Car(3L, "KIA", 2015, 200));
-        cars.add(new Car(4L, "Skoda", 2021, 10));
-    }
-
-    @Override
-    public List<Car> getFullList() {
-        return cars;
+        cars.add(new Car(1L, "Lada", 2000));
+        cars.add(new Car(2L, "BMW", 2005));
+        cars.add(new Car(3L, "KIA", 2015));
+        cars.add(new Car(4L, "Skoda", 2021));
+        cars.add(new Car(5L, "Cherry", 2024));
     }
 
     @Override

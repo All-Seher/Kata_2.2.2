@@ -14,11 +14,6 @@ public class CarServiceImpl implements CarService {
     CarDAO carDAO;
 
     @Override
-    public List<Car> getFullList() {
-        return carDAO.getFullList();
-    }
-
-    @Override
     public List<Car> getLimitList(int count) {
         return carDAO.getLimitList(count);
     }
