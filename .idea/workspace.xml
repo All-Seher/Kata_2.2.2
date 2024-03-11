@@ -9,14 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba9748b8-ac26-4f42-91a2-4cfd2ffdd525" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/WebConfig.java" afterDir="false" />
+    <list default="true" id="ba9748b8-ac26-4f42-91a2-4cfd2ffdd525" name="Changes" comment="Добавление классов для реализации DAO">
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/CarServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -60,10 +68,12 @@
     "Maven.spring-mvc [validate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TomEE Server.TomEE 10.1.19.executor": "Run",
     "Tomcat Server.Tomcat 10.1.19.executor": "Run",
     "Tomcat Server.Unnamed.executor": "Run",
     "Tomcat Server.localServer.executor": "Run",
+    "ToolWindowChanges.ShowToolbar": "false",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/My App/apache-tomcat-10.1.19",
     "node.js.detected.package.eslint": "true",
@@ -78,6 +88,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Java\Kata_2.2.2\src\main\java\web\controller" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="excludedTypes">
       <set>
@@ -277,6 +292,31 @@
       <workItem from="1710058400377" duration="43000" />
       <workItem from="1710058450153" duration="2900000" />
     </task>
+    <task id="LOCAL-00001" summary="Добавление классов для реализации DAO">
+      <option name="closed" value="true" />
+      <created>1710116216278</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710116216278</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавление классов для реализации DAO">
+      <option name="closed" value="true" />
+      <created>1710116442561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710116442561</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Добавление классов для реализации DAO">
+      <option name="closed" value="true" />
+      <created>1710116448760</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710116448760</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,5 +344,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавление классов для реализации DAO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление классов для реализации DAO" />
   </component>
 </project>
